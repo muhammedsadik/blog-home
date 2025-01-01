@@ -1,6 +1,86 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  margin-bottom: 80px;
+}
+
+.hero {
+  width: 1110px;
+  margin: 32px 165px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logo {
+  width: 69px;
+  height: 24px;
+}
+
+.hero-item {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.header-avatar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.about-iphone {
+  background-image: url('/assets/img/phones.png');
+  background-repeat: no-repeat;
+  height: 660px;
+  padding: 388px 274px 36px 165px;
+}
+
+.about-iphone-text {
+  background-color: #FFFFFF;
+  width: 541px;
+  padding: 48px;
+  border-radius: 12px;  
+}
+
+.about-iphone-text h1 {
+  width: 445px;
+  font-family: Montserrat;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.9000000059604645px;
+  text-align: left;
+  color: #212121;
+  margin-bottom: 16px;
+}
+
+.farok-rastegar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.farok-rastegar p{
+  width: 187px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #52647C;
+}
