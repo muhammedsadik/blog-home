@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -162,7 +166,6 @@ body {
   font-weight: 700;
   line-height: 24px;
   text-align: center;
-  text-decoration: none;
   border-radius: 3px;
   padding: 4px 24px;
   background-color: #0D6EFD;
@@ -238,7 +241,6 @@ body {
   font-weight: 600;
   line-height: 32px;
   text-align: center;
-  text-decoration: none;
 }
 
 .placeholder {
@@ -264,11 +266,63 @@ body {
   margin-bottom: 84px;
 }
 
-.placeholder p{
+.placeholder p {
   width: 277px;
   color: #FFFFFF;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 21px;
+}
+
+.table {
+  display: flex;
+  gap: 24px;
+  padding-block: 72px;
+  border-block: 1px solid #EAEAEA;
+  margin-bottom: 24px;
+}
+
+.table-content {
+  display: flex;
+  gap: 24px;
+}
+
+.table-content div {
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+}
+
+.table-content a {
+  color: #807E7E;
+  margin-bottom: 8px;
+}
+
+.table-last-link {
+  margin-bottom: 0px !important;
+}
+
+.table-input h3 {
+  width: 354px;
+  color: #212121;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+
+.footer-bottom div {
+  width: 216px;
+  display: flex; 
+  justify-content: space-between;
 }
