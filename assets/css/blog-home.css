@@ -157,7 +157,6 @@ body {
   background-repeat: no-repeat;
 }
 
-
 .keyboard a {
   width: 64px;
   color: #FFFFFF;
@@ -229,7 +228,7 @@ body {
   height: 64px;
   margin: auto;
   padding: 16px 72px;
-  margin-block: 72px 80px;
+  margin-block: 16px 80px;
   background-color: #0D6EFD;
 }
 
